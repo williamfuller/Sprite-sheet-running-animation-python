@@ -1,0 +1,1 @@
+Before running succefully please modify code in Calculate python file, to enter info the number of rows and collumns and which line of the sprite sheet you would like to use 
