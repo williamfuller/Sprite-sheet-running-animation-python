@@ -2,7 +2,7 @@ import random
 import time
 class Animate():
 	def __init__(self, start_level, sprite_size):
-		self.fps = random.randrange(4, 26, 2) #calculated here needed for later
+		self.fps = random.randrange(4, 26, 2)
 		self.start_level = start_level
 		self.sprite_size = sprite_size
 		self.sprite_x = 0
