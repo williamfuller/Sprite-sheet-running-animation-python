@@ -8,9 +8,9 @@ for the targetted sprite sheet:
  - row_count: total number of rows in the sprite sheet
 """
 sprite_sheet = {
-	"name": "example2.png",
-	"animation_row": 3,
-	"frame_count": 9,
+	"name": "example1.png",
+	"animation_row": 4,
+	"frame_count": 8,
 	"row_count": 4
 }
 
