@@ -8,7 +8,7 @@ pygame.init()
 
 sprite_img = pygame.image.load(f"res/{sprite_sheet['name']}")
 
-sprite_info = SpriteInfoCalculator(sprite_img, sprite_sheet["row"], sprite_sheet["frame_count"])
+sprite_info = SpriteInfoCalculator(sprite_img, sprite_sheet["animation_row"], sprite_sheet["frame_count"], sprite_sheet["row_count"])
 sprites_coordinates = sprite_info.get_sprite_coordinates()
 
 #Sprite sheet info 
