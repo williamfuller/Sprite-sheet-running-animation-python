@@ -1,6 +1,6 @@
 """
-configuration file containing information
-relevant to the sprite sheet:
+sprite_sheet contains parameters
+for the targetted sprite sheet:
 
  - name: sprite sheet filename should be in res folder
  - animaton_row: location of animation on sprite sheet
@@ -12,4 +12,17 @@ sprite_sheet = {
 	"animation_row": 2,
 	"frame_count": 6,
 	"row_count": 4
+}
+
+"""
+animation_contains parameters of the animation window:
+
+- width: desired window width in pixels
+- height: desired window height in pixels
+- background_color: desired backgound color as rgb tuple
+"""
+animation_window = {
+	"width": 800,
+	"height": 600,
+	"background_color": (255, 123, 255)
 }
