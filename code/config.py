@@ -8,9 +8,9 @@ for the targetted sprite sheet:
  - row_count: total number of rows in the sprite sheet
 """
 sprite_sheet = {
-	"name": "example3.png",
-	"animation_row": 2,
-	"frame_count": 6,
+	"name": "example2.png",
+	"animation_row": 3,
+	"frame_count": 9,
 	"row_count": 4
 }
 
@@ -22,7 +22,7 @@ animation_contains parameters of the animation window:
 - background_color: desired backgound color as rgb tuple
 """
 animation_window = {
-	"width": 800,
-	"height": 600,
+	"width": 1000,
+	"height": 200,
 	"background_color": (255, 123, 255)
 }

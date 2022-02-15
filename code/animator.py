@@ -12,7 +12,7 @@ class Animator():
 		self.window_max_width = window_max_width
 
 	def __get_random_aniation_speed(self):
-		return random.randrange(4, 26, 2)
+		return random.randrange(2, 10, 1)
 
 	def get_animation_frame_index(self, frame_count, start_frame):
 		return int((time.time() - start_frame) * self.animation_speed % frame_count)
