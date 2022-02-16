@@ -2,6 +2,7 @@
 
 This was a small project I made when learning python/programming to get familiar with object oriented concepts and functional programming.
 
+From a sprite sheet it generates a small animation, such as the running man animation below
 ![](https://github.com/Will1608/Sprite-sheet-running-animation-with-python/blob/main/example.gif)
 
 ## Running the code
