@@ -1,8 +1,8 @@
 import pygame
 from src.animator import Animator
 from src.sprite_info_calculator import SpriteInfoCalculator
-from config import sprite_sheet, animation_window
 import src.utils as utils
+from config import sprite_sheet, animation_window
 
 pygame.init()
 animation_display = pygame.display.set_mode((animation_window["width"],animation_window["height"]))
