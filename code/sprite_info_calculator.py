@@ -6,7 +6,6 @@ class SpriteInfoCalculator:
 
 		self.spritesheet_width, self.spritesheet_height = sprite_sheet.get_rect().size
 		self.sprite_width ,self.sprite_height =  round(self.spritesheet_width/frame_count), round(self.spritesheet_height/row_count)
-		print(self.sprite_width ,self.sprite_height )
 
 	def get_sprite_coordinates(self):
 		sprite_coordinates = []

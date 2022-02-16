@@ -4,7 +4,7 @@ import time
 class Animator():
 	def __init__(self, display_row, sprite_height, window_max_width):
 		self.animation_speed = self.__get_random_aniation_speed()
-
+		self.start_time = time.time()
 		self.display_row = display_row
 		self.sprite_size = sprite_height
 		self.sprite_x = 0
@@ -14,8 +14,8 @@ class Animator():
 	def __get_random_aniation_speed(self):
 		return random.randrange(4, 26, 2)
 
-	def get_animation_frame_index(self, frame_count, start_frame):
-		return int((time.time() - start_frame) * self.animation_speed % frame_count)
+	def get_animation_frame_index(self, frame_count):
+		return int((time.time() - self.start_time) * self.animation_speed % frame_count)
 
 	def update_sprite_postion(self):
 		sprite_y = self.display_row * self.sprite_size
